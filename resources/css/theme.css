@@ -1,0 +1,117 @@
+:root {
+  --primary: #1b2b50;
+  --primary-dark: #06122f;
+  --primary-70: rgba(254, 1, 129, 0.7);
+  --primary-50: rgba(254, 1, 129, 0.5);
+  --primary-30: rgba(254, 1, 129, 0.3);
+  --primary-10: rgba(254, 1, 129, 0.1);
+  --logo: #430051;
+  --sidebar-icon: #ecdbec;
+}
+
+.card {
+  border: 1px solid #dfdfdf;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .03);
+  border-radius: 3px;
+}
+
+.w-sidebar {}
+
+.bg-grad-sidebar, .bg-logo {
+  background-image: none;
+  background-color: #010819;
+}
+
+.bg-logo svg {
+  margin: 0 auto;
+}
+
+.pt-header {
+  padding-top: 75px;
+}
+
+.h-header {
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .03);
+}
+
+.w-sidebar:first-of-type {
+  padding-left: 0;
+  padding-right: 0;
+  /* width: 190px; */
+}
+
+.w-sidebar ul {
+  padding: 0;
+  margin: 10px 0 20px 0;
+}
+
+.w-sidebar ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.w-sidebar ul li:hover {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.w-sidebar ul li a {
+  padding-right: 0;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 17px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+
+.w-sidebar ul li a:hover {
+  color: #ffffff !important;
+}
+
+.w-sidebar h3 {
+  padding-right: 0;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 5px;
+  margin: 7px 0 0 0;
+  font-weight: 600;
+  width: 100%;
+}
+
+.w-sidebar h3 a {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.w-sidebar h3 svg {
+  display: none;
+}
+
+.w-sidebar .sidebar-label {
+  padding: 0 0 0 17px;
+  margin: 0;
+  font-size: 0.9rem;
+  width: 100%;
+  color: #c1c1c1;
+  font-weight: 700;
+}
+
+.w-sidebar h4 {
+  padding: 0 0 0 30px;
+  margin: 10px 0 8px 0;
+  font-size: .8rem;
+  color: #677694;
+}
+
+.w-sidebar ul li a {
+  padding-left: 30px;
+  width: 100%;
+}
+
+.w-sidebar li a.router-link-exact-active {
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-icon {
+  margin: 0;
+}

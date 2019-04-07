@@ -1,0 +1,31 @@
+{
+  "name": "stephenlake/nova-snowball",
+  "description": "A beautiful contrast of dark blue and white packaged for Laravel Nova as a theme.",
+  "keywords": [
+    "laravel",
+    "nova",
+    "theme"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0",
+    "stephenlake/nova-fixed-bars": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "NovaSnowball\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NovaSnowball\\SnowballServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
