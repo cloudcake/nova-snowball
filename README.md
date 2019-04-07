@@ -7,7 +7,6 @@ A beautiful contrast of dark blue and white packaged for Laravel Nova as a theme
 </h6>
 
 # Installation
-Require package:
 ```bash
 composer require stephenlake/nova-snowball
 ```
