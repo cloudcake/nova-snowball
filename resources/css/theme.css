@@ -135,6 +135,10 @@
   border-color: rgba(0, 117, 173, 0.18);
 }
 
+.ps {
+  padding-bottom: 80px;
+}
+
 .ps__rail-y:hover>.ps__thumb-y, .ps__rail-y:focus>.ps__thumb-y, .ps__rail-y.ps--clicking .ps__thumb-y, .ps__thumb-y {
   background-color: rgb(0, 117, 173);
   width: 4px;
