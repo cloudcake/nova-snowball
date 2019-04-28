@@ -2,11 +2,11 @@
 
 namespace NovaSnowball;
 
-use Laravel\Nova\Nova;
-use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\ServiceProvider;
+use Laravel\Nova\Events\ServingNova;
+use Laravel\Nova\Nova;
 
-class SnowballServiceProvider extends ServiceProvider
+class ThemeServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap snowball.
