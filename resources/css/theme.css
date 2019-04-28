@@ -18,7 +18,7 @@
 .w-sidebar:first-of-type {
   padding-left: 0;
   padding-right: 0;
-  width: 180px;
+  width: 210px;
 }
 
 .content .px-view {
@@ -36,7 +36,7 @@
 }
 
 .pt-header {
-  padding-top: 30px;
+  padding-top: 55px;
 }
 
 .h-header {
