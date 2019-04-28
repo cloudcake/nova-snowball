@@ -127,6 +127,7 @@
   width: 100%;
   letter-spacing: -0.016rem;
   font-weight: 600;
+  margin-left: 0 !important;
 }
 
 .w-sidebar li a.router-link-exact-active {
