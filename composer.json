@@ -19,7 +19,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "NovaSnowball\\SnowballServiceProvider"
+        "NovaSnowball\\ThemeServiceProvider"
       ]
     }
   },
