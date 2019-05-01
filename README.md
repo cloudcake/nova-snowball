@@ -13,8 +13,15 @@ A beautiful contrast of dark blue and white packaged for Laravel Nova as a theme
 
 # Installation
 
-**Note:** If you do not want the responsive sidebar and header, stick to version `v1.0.*`.
+**Note:** If you do not want the responsiveness and extras, stick to version `v1.0.6`.
 
+Require the package
 ```bash
 composer require stephenlake/nova-snowball
 ```
+
+Publish and edit configuration file (**Optional**)
+```bash
+php artisan vendor:publish --provider="NovaSnowball\ThemeServiceProvider" --tag="config"
+```
+
