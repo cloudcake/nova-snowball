@@ -4,16 +4,6 @@
 
 .w-sidebar h4:not(.expanded)+ul {
   display: none;
-  height: 0;
-  -moz-transition: height 1.5s ease-out;
-  transition: height 1.5s ease-out;
-}
-
-.w-sidebar h4:not(.expanded)+ul {
-  visibility: hidden;
-  height: 0;
-  -moz-transition: height 1.5s ease-out;
-  transition: height 1.5s ease-out;
 }
 
 .w-sidebar h4 {
