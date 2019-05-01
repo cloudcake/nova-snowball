@@ -34,7 +34,7 @@
 .w-sidebar:first-of-type {
   padding-left: 0;
   padding-right: 0;
-  width: 210px;
+  width: 188px;
 }
 
 .content .px-view {
@@ -92,7 +92,7 @@
 }
 
 .w-sidebar h3 {
-  padding: 12px 0 12px 5px;
+  padding: 12px 0 12px 10px;
   margin: 7px 0 0 0;
   font-weight: 600;
   width: 100%;
@@ -103,11 +103,13 @@
 }
 
 .w-sidebar h3 svg {
-  display: none;
+  margin-right: 0;
+  margin-left: 4px;
+  padding-left: 1px;
 }
 
 .w-sidebar .sidebar-label {
-  padding: 0 0 0 17px;
+  padding: 0 0 0 10px;
   margin: 0;
   font-size: 0.9rem;
   width: 100%;
@@ -116,14 +118,14 @@
 }
 
 .w-sidebar h4 {
-  padding: 0 0 0 30px;
+  padding: 0 0 0 35px;
   margin: 10px 0 8px 0;
   font-size: .8rem;
   color: #677694;
 }
 
 .w-sidebar ul li a {
-  padding-left: 30px;
+  padding-left: 35px;
   width: 100%;
   letter-spacing: -0.016rem;
   font-weight: 600;

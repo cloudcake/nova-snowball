@@ -1,0 +1,42 @@
+.w-sidebar h4.expanded {
+  color: #ffffff;
+}
+
+.w-sidebar h4:not(.expanded)+ul {
+  display: none;
+  height: 0;
+  -moz-transition: height 1.5s ease-out;
+  transition: height 1.5s ease-out;
+}
+
+.w-sidebar h4:not(.expanded)+ul {
+  visibility: hidden;
+  height: 0;
+  -moz-transition: height 1.5s ease-out;
+  transition: height 1.5s ease-out;
+}
+
+.w-sidebar h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.w-sidebar h4.expanded::before {
+  content: '-';
+  padding-right: 4px;
+}
+
+.w-sidebar h4.expanded+ul a {
+  padding-left: 44px;
+}
+
+.w-sidebar h4:hover {
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+}
+
+.w-sidebar h4::before {
+  content: '+';
+  padding-right: 4px;
+}

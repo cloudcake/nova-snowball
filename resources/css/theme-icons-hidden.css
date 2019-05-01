@@ -1,0 +1,20 @@
+.w-sidebar h4 {
+  padding: 0 0 0 30px;
+}
+
+.w-sidebar ul li a {
+  padding-left: 30px;
+}
+
+.w-sidebar h3 svg {
+  display: none;
+}
+
+.w-sidebar .sidebar-label {
+  padding: 0 0 0 17px;
+  margin: 0;
+  font-size: 0.9rem;
+  width: 100%;
+  color: var(--primary-lightest);
+  font-weight: 700;
+}
