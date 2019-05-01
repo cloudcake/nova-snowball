@@ -25,7 +25,7 @@ return [
   |
   */
 
-  'collapseSidebarGroups' => true,
+  'sidebarCollapse' => true,
 
   /*
   |--------------------------------------------------------------------------
