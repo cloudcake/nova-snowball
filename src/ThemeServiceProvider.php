@@ -41,5 +41,9 @@ class ThemeServiceProvider extends ServiceProvider
                 Nova::script('nova-snowball-theme-collapse-js', __DIR__.'/../resources/js/theme-sidebar-collapse.js');
             }
         });
+
+        $this->publishes([
+            __DIR__.'/../config/nova-snowball.php' => config_path('nova-snowball.php'),
+        ], 'config');
     }
 }
