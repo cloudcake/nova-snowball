@@ -184,3 +184,9 @@ input:focus,
   background-color: var(--perfect-scroll-thumb-colour);
   width: var(--perfect-scroll-bar-width);
 }
+
+@media (max-width: 992px) {
+  .pt-header {
+    padding-top: 60px !important;
+  }
+}
