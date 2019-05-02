@@ -17,7 +17,7 @@ window.addEventListener('load', function() {
     })
   }
 
-  var activeSidebarGroup = document.querySelector('.w-sidebar .router-link-exact-active');
+  var activeSidebarGroup = document.querySelector('.w-sidebar .router-link-active');
 
   if (activeSidebarGroup) {
     var nearestList = activeSidebarGroup.closest('ul')
