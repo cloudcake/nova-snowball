@@ -4,7 +4,7 @@
   --primary-darkest: rgb(1, 8, 29);
   --primary-light: rgb(0, 157, 255);
   --primary-lightest: #c1c1c1;
-  --primary-70: rgba(0, 157, 255, 0.7);
+  --primary-70: rgba(0, 157, 255, 0.4);
   --primary-60: rgba(0, 157, 255, 0.6);
   --primary-50: rgba(0, 157, 255, 0.5);
   --primary-40: rgba(0, 157, 255, 0.4);
@@ -13,7 +13,7 @@
   --primary-10: rgba(0, 157, 255, 0.1);
   --white-90: rgba(255, 255, 255, 0.9);
   --white-80: rgba(255, 255, 255, 0.8);
-  --white-70: rgba(255, 255, 255, 0.7);
+  --white-70: rgba(255, 255, 255, 0.4);
   --white-60: rgba(255, 255, 255, 0.6);
   --white-50: rgba(255, 255, 255, 0.5);
   --logo: #430051;
@@ -85,10 +85,18 @@
   font-weight: 500;
   display: block;
   width: 100%;
+  transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
 }
 
 .w-sidebar ul li a:hover {
-  color: #ffffff !important;
+  color: var(--white-90);
+  transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
 }
 
 .w-sidebar h3 {
@@ -132,10 +140,16 @@
   margin-left: 0 !important;
 }
 
-.w-sidebar .router-link-exact-active,.w-sidebar .router-link-active {
+.w-sidebar .router-link-exact-active,
+.w-sidebar .router-link-active {
   font-weight: 700;
   background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
   border-left: 2px solid #7f7fdc;
+}
+
+.w-sidebar .router-link-active .sidebar-label {
+  color: #ffffff;
 }
 
 .w-sidebar .dim:hover,
