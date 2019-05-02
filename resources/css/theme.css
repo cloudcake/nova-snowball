@@ -132,9 +132,10 @@
   margin-left: 0 !important;
 }
 
-.w-sidebar li a.router-link-exact-active {
+.w-sidebar .router-link-exact-active {
   font-weight: 700;
   background: rgba(255, 255, 255, 0.1);
+  border-left: 2px solid #7f7fdc;
 }
 
 .w-sidebar .dim:hover,
