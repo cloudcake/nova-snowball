@@ -16,4 +16,14 @@ window.addEventListener('load', function() {
       }
     })
   }
+
+  var activeSidebarGroup = document.querySelector('.w-sidebar .router-link-exact-active');
+
+  if (activeSidebarGroup) {
+    var nearestList = activeSidebarGroup.closest('ul')
+
+    if (nearestList && nearestList.previousElementSibling) {
+      nearestList.previousElementSibling.classList.add('expanded')
+    }
+  }
 })
