@@ -1,5 +1,5 @@
 .w-sidebar h4 {
-  padding: 0 0 0 30px;
+  padding: 0 0 0 0;
 }
 
 .w-sidebar ul li a {
@@ -11,8 +11,6 @@
 }
 
 .w-sidebar .sidebar-label {
-  padding: 0 0 0 17px;
-  margin: 0;
   font-size: 0.9rem;
   width: 100%;
   color: var(--primary-lightest);

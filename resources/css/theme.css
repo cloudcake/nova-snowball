@@ -65,7 +65,7 @@
 
 .w-sidebar ul {
   padding: 0;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 .w-sidebar ul li {
@@ -126,8 +126,6 @@
 }
 
 .w-sidebar h4 {
-  padding: 0 0 0 35px;
-  margin: 10px 0 8px 0;
   font-size: .8rem;
   color: #677694;
 }
@@ -200,6 +198,10 @@ input:focus,
 .ps__thumb-y {
   background-color: var(--perfect-scroll-thumb-colour);
   width: var(--perfect-scroll-bar-width);
+}
+
+.w-sidebar h4 {
+  margin-top: 11px;
 }
 
 @media (max-width: 992px) {
