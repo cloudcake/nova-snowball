@@ -38,3 +38,12 @@
   -o-user-select: none;
   user-select: none;
 }
+
+.w-sidebar ul li {
+  display: block;
+}
+
+.w-sidebar ul li a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
