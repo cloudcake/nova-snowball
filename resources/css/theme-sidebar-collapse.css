@@ -2,19 +2,10 @@
   padding-bottom: 2px;
   padding-top: 4px;
   margin: 0 0 6px 0;
-}
-
-.w-sidebar h4.expanded {
-  color: #ffffff;
-}
-
-.w-sidebar h4:not(.expanded)+ul {
-  display: none;
-}
-
-.w-sidebar h4.expanded+ul {
-  margin-top: 2px;
-  margin-bottom: 8px;
+  transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
 }
 
 .w-sidebar h4.expanded::before {
@@ -22,19 +13,52 @@
   padding-right: 4px;
 }
 
-.w-sidebar h4.expanded+ul a {
-  padding-left: 44px;
-}
-
 .w-sidebar h4:hover {
   color: #ffffff;
   cursor: pointer;
   display: block;
+  transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
 }
 
 .w-sidebar h4::before {
   content: '+';
   padding-right: 4px;
+}
+
+.w-sidebar h4.expanded {
+  color: #ffffff;
+}
+
+.w-sidebar h4+ul {
+  margin-top: 4px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.w-sidebar h4.expanded+ul {
+  margin-bottom: 9px;
+}
+
+.w-sidebar h4:not(.expanded)+ul li a {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+.w-sidebar h4.expanded+ul li a {
+  opacity: 1;
+  position: static;
+  transition: opacity 0.7s linear;
+  -moz-transition: opacity 0.7s linear;
+  -o-transition: opacity 0.7s linear;
+  -webkit-transition: opacity 0.7s linear;
+}
+
+.w-sidebar h4.expanded+ul a {
+  padding-left: 44px;
 }
 
 .w-sidebar h4, .w-sidebar ul {
