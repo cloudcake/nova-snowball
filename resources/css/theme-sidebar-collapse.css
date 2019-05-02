@@ -1,3 +1,9 @@
+.w-sidebar h4 {
+  padding-bottom: 2px;
+  padding-top: 4px;
+  margin: 0 0 6px 0;
+}
+
 .w-sidebar h4.expanded {
   color: #ffffff;
 }
@@ -6,13 +12,8 @@
   display: none;
 }
 
-.w-sidebar h4:not(.expanded) {
-  margin-bottom: 9px;
-  margin-top: 5px;
-}
-
 .w-sidebar h4.expanded+ul {
-  margin-top: 8px;
+  margin-top: 2px;
   margin-bottom: 8px;
 }
 
