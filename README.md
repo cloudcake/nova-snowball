@@ -8,7 +8,7 @@ A beautiful contrast of dark blue and white packaged for Laravel Nova as a theme
 
 
 <h6 align="center">
-  <img src="https://i.imgur.com/kPavc5c.png" width="700">
+  <img src="https://i.imgur.com/U4y5roL.png" width="700">
 </h6>
 
 # Installation
@@ -24,4 +24,3 @@ Publish and edit configuration file (**Optional**)
 ```bash
 php artisan vendor:publish --provider="NovaSnowball\ThemeServiceProvider" --tag="config"
 ```
-
