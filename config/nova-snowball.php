@@ -7,7 +7,7 @@ return [
   | Sidebar Size
   |--------------------------------------------------------------------------
   |
-  | The width to extend upon the sidebar.
+  | Set the sidebar width from a predefined list of templates.
   |
   | Possible values: 'thin', 'normal', 'thick'
   |
@@ -20,8 +20,8 @@ return [
   | Collapse Sidebar Groups
   |--------------------------------------------------------------------------
   |
-  | Setting this value to false will collapse resource groups and expand them
-  | on selection.
+  | Setting this value to true will collapse resource groups and expand them
+  | on selection collapsing any other expanded navigation items.
   |
   */
 
