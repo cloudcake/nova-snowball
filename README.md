@@ -6,10 +6,11 @@
 
 A beautiful contrast of dark blue and white packaged for Laravel Nova as a theme.
 
-
 <h6 align="center">
   <img src="https://i.imgur.com/U4y5roL.png" width="700">
 </h6>
+
+Made with ❤️ by [Stephen Lake](http://github.com/stephenlake)
 
 # Installation
 
