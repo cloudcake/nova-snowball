@@ -1,18 +1,18 @@
 .w-sidebar h4 {
-  transition: 0.4s;
-  -moz-transition: 0.4s;
-  -o-transition: 0.4s;
-  -webkit-transition: 0.4s;
+  transition: 0.1s;
+  -moz-transition: 0.1s;
+  -o-transition: 0.1s;
+  -webkit-transition: 0.1s;
 }
 
 .w-sidebar h4:hover {
   color: #ffffff;
   cursor: pointer;
   display: block;
-  transition: 0.4s;
-  -moz-transition: 0.4s;
-  -o-transition: 0.4s;
-  -webkit-transition: 0.4s;
+  transition: 0.1s;
+  -moz-transition: 0.1s;
+  -o-transition: 0.1s;
+  -webkit-transition: 0.1s;
 }
 
 .w-sidebar h4.expanded {
@@ -26,7 +26,6 @@
 .w-sidebar h4.expanded+ul {
   margin-top: 12px;
   margin-bottom: 22px;
-  background: rgba(0,0,0,0.23);
 }
 
 .w-sidebar h4 ul li {
@@ -42,16 +41,16 @@
 }
 
 .w-sidebar h4.expanded+ul li a {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   display: block;
   margin: 0;
   opacity: 1;
   position: static;
-  transition: opacity 0.7s linear;
-  -moz-transition: opacity 0.7s linear;
-  -o-transition: opacity 0.7s linear;
-  -webkit-transition: opacity 0.7s linear;
+  transition: opacity 0.1s linear;
+  -moz-transition: opacity 0.1s linear;
+  -o-transition: opacity 0.1s linear;
+  -webkit-transition: opacity 0.1s linear;
 }
 
 .w-sidebar h4.expanded+ul a {
@@ -69,13 +68,6 @@
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-}
-
-.w-sidebar h3 {
-  transition: 0.4s;
-  -moz-transition: 0.4s;
-  -o-transition: 0.4s;
-  -webkit-transition: 0.4s;
 }
 
 .w-sidebar h3.expanded {
