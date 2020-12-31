@@ -209,3 +209,5 @@ input:focus,
     padding-top: 60px !important;
   }
 }
+
+.dropdown-right { position: fixed; right: 0; padding-right: 30px; }
